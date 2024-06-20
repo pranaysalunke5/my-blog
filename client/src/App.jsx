@@ -16,8 +16,8 @@ const App = () => {
         <Route path="/sign-up" element={<SignUp />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/home" element={<Navigate to="/" />} /> {/* Redirect /home to / */}
-        <Route path="*" element={<Navigate to="/" />} /> {/* Handle unknown routes */}
+        {/* <Route path="/home" element={<Navigate to="/" />} /> Redirect /home to / */}
+        {/* <Route path="*" element={<Navigate to="/" />} /> Handle unknown routes */}
       </Routes>
     </BrowserRouter>
   );
