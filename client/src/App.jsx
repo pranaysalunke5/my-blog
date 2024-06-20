@@ -1,8 +1,12 @@
-import React from 'react'
+import {BrowserRouter,Routes,Route} from 'react'
 
 const App = () => {
   return (
-    <div className='text-4xl'>App</div>
+    <BrowserRouter>
+    <Routes>
+      <Route/>
+    </Routes>
+    </BrowserRouter>
   )
 }
 
